@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "liang xiao-shi‘s Blog"
-  text: "PWA FAST SDK"
-  tagline: xiao-shi‘s Blog Web Site
+  text: "一个VitePress文档"
+  tagline: 平芜尽处是春山
   actions:
     - theme: brand
       text: FAST PWA SDK API

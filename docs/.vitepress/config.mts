@@ -23,7 +23,9 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/liang-sishi' }] ,
+    socialLinks: [{ icon: 'github', link: 'https://github.com/liang-sishi' }] ,
+    footer:{
+      copyright: 'Copyright@ 2024 xiao-shi Liang'
+    }
   }
 })
