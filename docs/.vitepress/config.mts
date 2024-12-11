@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 部署的时候需要注意该参数避免样式丢失
+  base: '/vitepress-blog/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
@@ -22,7 +24,6 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/liang-sishi' }] ,
   }
 })
